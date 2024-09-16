@@ -1,0 +1,111 @@
+.tsk_w{
+  background: #FFFFFF;
+  margin-left: 235px;
+  margin-right: 179px;
+  border-radius: 12px;
+  margin-top: 63px;
+  
+}
+.tsk_5_a {
+  width: 100%;  
+}
+.tsk_6_a {
+  width: 100%;  
+}
+.tsk_5_t {
+  width: 100%;
+  
+}
+.tsk_1 {
+background-image: url("../public/asset/image/img_nature.jpg.jpg");
+  width: 100%;
+  height: 633px;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -21px;
+}
+.tsk_2 {
+  text-align: center;
+  background: #E7E7E7;
+}
+.tsk_5{
+  text-align: center;
+  float: left;
+  font-size: 23px;
+  margin-left: 68px;
+  font-family: Arial;
+}
+.tsk_6{     
+    font-size: 23px;
+    width: 39%;
+    float: left;
+    margin-left: 71px;
+    font-family: Arial;
+}
+.tsk_7{
+  text-align: center;
+  margin-top: 25px;
+}
+.tsk_8 {
+  text-align: center;
+  margin-top: 22px;
+  padding-bottom: 81px;
+}
+.tsk_6_t {
+  width: 52%;
+    float: left;
+}
+h2 {
+  color: green;
+  text-align: center;
+  padding-top: 41px;
+}
+.tsk_4 {
+  color: green;
+  text-align: center;
+  margin-top: -20px;
+  padding-bottom: 45px;
+}
+/* .tsk_3 {
+
+} */
+.button {
+  background: #67A76B;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 9px;
+  font-family: arial;
+}
+.button1 {
+  padding: 10px 24px;
+}
+input[type=text]{
+  width: 46%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-left: 67px;
+}
+input[type=password]{
+  width: 89%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-left: -25px;
+}
