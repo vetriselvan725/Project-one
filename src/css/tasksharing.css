@@ -1,5 +1,100 @@
-input[type=text] {
-    width: 46%;
-    padding: 12px;
-    border: 1px solid red;
+.ts_1{
+    width: 100%;
+}
+.ts_4 {
+    width: 97%;
+    padding: 10px ;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;   
+    margin-left: 7px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.la_1{
+    margin-left: 7px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 14px;
+}
+.ts_11{
+    border: 1px solid #CCCCCC;
+    margin-left: 7px;
+    border-radius: 8px;
+}
+.ts_11_re{
+    border: 1px solid #CCCCCC;
+    margin-left: 7px;
+    border-radius: 8px;
+}
+.ts_1_w{
+    border: 5px solid #CCCCCC;
+    width: 33%;
+    margin-left: 395px;
+    padding: 15px;
+    float: left;
+}
+.bu_1{
+    background: #67A76B;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    font-family: arial;
+    padding: 10px 24px;
+}
+.ts_16{
+    float: left;
+}
+.side_1{
+    width: 100%;
+}
+.side_1{
+    width: 100%;
+}
+.side_3{
+    margin-left: 201px;
+}
+.side_4{
+    width: 100%;
+}
+.side_5 {
+    float: left;
+}
+.side_7{
+    float: right;
+}
+@media only screen and (max-width: 600px) {
+    .ts_1_w{
+        width: 89%;
+        margin-left: 0px;
+    }
+    .ts_11{
+        margin-left: 0px;
+        width: 98%;
+    }
+    .ts_16{
+        width: 100%;
+    }
+    .ts_11_re {
+        width: 96%;
+    }
+}
+@media only screen and (min-width: 768px) {
+ /* .ts_11{
+        width: 93%;
+    }   */
+}
+@media only screen and (min-width: 992px) {
+    /* .ts_11{
+        width: 93%;
+    }   */
 }

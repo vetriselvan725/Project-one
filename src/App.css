@@ -1,4 +1,4 @@
-.tsk_w{
+/* .tsk_w{
   background: #FFFFFF;
   margin-left: 235px;
   margin-right: 179px;
@@ -87,7 +87,7 @@ h2 {
 .button1 {
   padding: 10px 24px;
 }
-input[type=text]{
+/* input[type=text]{
   width: 46%;
   padding: 12px;
   border: 1px solid #000000;
@@ -108,4 +108,4 @@ input[type=password]{
   margin-bottom: 16px;
   resize: vertical;
   margin-left: -25px;
-}
+}  */
