@@ -1,11 +1,12 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import Login from './pages/login';
+import Tasksharing from './pages/tasksharing.js';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <>
-    <div className="tsk_1">
+    {/* <div className="tsk_1">
       <div className="tsk_2">
           <h1>Affinity</h1>
       </div>
@@ -39,11 +40,12 @@ function App() {
        <button className="button button1">Create account</button>
       </div>
    </div>
-    </div>
+    </div> */}
   <BrowserRouter>
       <Routes>
         {/* <Route index element={DEFAULT_ROUTE_PAGE} /> */}
         <Route path="login" element={<Login />} />
+        <Route path="Tasksharing" element={<Tasksharing />} />
        
       </Routes>
     </BrowserRouter>
