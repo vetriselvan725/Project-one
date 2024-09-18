@@ -130,8 +130,15 @@
 }
 .are_2 {
     margin-top: 10px;
-    border: 1px solid #E7E7E7;
-   
+    border: 1px solid #E7E7E7;   
+}
+.are_3 {
+    margin-top: -1px; 
+}
+.are_4{
+    margin-top: 10px;
+    border: 1px solid #E7E7E7;   
+    text-align: center;
 }
 @media only screen and (max-width: 600px) {
     .ts_1_w{

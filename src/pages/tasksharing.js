@@ -53,7 +53,7 @@ const Tasksharing = () => {
      <textarea  className="ts_11" rows="4" cols="56"></textarea>
       </div>
       <div className="ts_23">
-        <label className="la_1"></label>
+        <label className="la_1">Plan</label>
       </div>
      <div className="ts_24">
      <textarea  className="ts_11" rows="4" cols="56"></textarea>
@@ -82,7 +82,7 @@ const Tasksharing = () => {
         <label className="la_1">Action</label>
       </div>
      <div className="ts_36">
-     <textarea  className="ts_11" rows="4" cols="26"></textarea>
+     <textarea  className="ts_11" rows="4" cols="26" ></textarea>
       </div>
       <div  className="ts_16_c">
       <div  className="ts_16_a">
@@ -130,6 +130,19 @@ const Tasksharing = () => {
           <div className="side_10">
               <label className="side_11">Action</label>
           </div>
+          <div className="are_3">
+               <textarea  className="are_4" rows="7" cols="57" placeholder="Enter Answer"></textarea>
+             </div>
+             {/* <div>
+             <img src="paris.jpg" alt="Paris" width="20" height="20"/>
+             </div> */}
+             <div className="side_10">
+              <label className="side_11">Action</label>
+          </div>
+          <div className="are_3">
+               <textarea  className="are_4" rows="7" cols="57" placeholder="CLICK TO REVEAL ANSWER"></textarea>
+             </div>
+            
           </div>
       </div>
     </div>
