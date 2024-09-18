@@ -36,6 +36,7 @@
     margin-left: 395px;
     padding: 15px;
     float: left;
+    clear: both;
 }
 .bu_1{
     background: #67A76B;
@@ -51,15 +52,48 @@
     font-family: arial;
     padding: 10px 24px;
 }
+
 .ts_16{
     float: left;
 }
-.side_1{
+.ts_16_a{
+    width: 30%;
+    float: left;
+}
+.ts_16_b{
+    width: 40%;
+    float: left;
+    margin-top: 11px;
+}
+.ts_16_c{
     width: 100%;
+    float: left;
+}
+.ts_42{
+    text-align: center;
+    margin-top: 20px;
+}
+.ts_40 {
+    margin-top: 11px;
+}
+.m_a {
+    width: 100%;
+    margin-top: 18px;
+    text-align: center;
+}
+.ts_2{
+    font-weight: bold;
+    font-size: 14px;
 }
 .side_1{
-    width: 100%;
+    width: 33%;
+    float: left;
+    margin-left: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
 }
+
 .side_3{
     margin-left: 201px;
 }
@@ -71,6 +105,33 @@
 }
 .side_7{
     float: right;
+}
+.side_8{
+    margin-top: 54px;
+    width: 100%;
+}
+.side_9{
+    background: #E7E7E7;
+    padding-right: 314px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
+.side_10 {
+    margin-top: -7px;    
+}
+.side_11{
+    background: #E7E7E7;
+    padding-right: 398px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
+.are_1 {
+    margin-top: -1px;
+}
+.are_2 {
+    margin-top: 10px;
+    border: 1px solid #E7E7E7;
+   
 }
 @media only screen and (max-width: 600px) {
     .ts_1_w{

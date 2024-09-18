@@ -6,7 +6,7 @@ const Tasksharing = () => {
     <div className="ts_1 main">
       <div className="ts_1_w">
       <div className="ts_2">
-          <h1>Task Sharing</h1>
+          <label>Task Sharing</label>
           
       </div>
      
@@ -39,6 +39,7 @@ const Tasksharing = () => {
            <textarea  className="ts_11_re" rows="4" cols="26"></textarea>
         </div>
       </div>
+     
       <div className="ts_20">
         <label className="la_1">Diagnosis</label>
       </div>
@@ -47,6 +48,12 @@ const Tasksharing = () => {
       </div>
       <div className="ts_23">
         <label className="la_1">Follow up</label>
+      </div>
+     <div className="ts_24">
+     <textarea  className="ts_11" rows="4" cols="56"></textarea>
+      </div>
+      <div className="ts_23">
+        <label className="la_1"></label>
       </div>
      <div className="ts_24">
      <textarea  className="ts_11" rows="4" cols="56"></textarea>
@@ -77,34 +84,32 @@ const Tasksharing = () => {
      <div className="ts_36">
      <textarea  className="ts_11" rows="4" cols="26"></textarea>
       </div>
-      <div  className="ts_16">
+      <div  className="ts_16_c">
+      <div  className="ts_16_a">
       <div className="ts_37">
         <button className="bu_1">Share</button>
       </div>
       </div>
-      <div className="ts_16">
+      <div className="ts_16_b">
        <div className="ts_38">
-       <input type="checkbox" checked="checked"/>
+       <input type="checkbox"  checked="checked"/>
+       <label className="">Libray</label>
         </div>    
-        <div className="ts_39">          
-          <label className="">Libray</label>
-        </div>
+        
       </div>
       <div className="ts_40">
       <input type="checkbox" checked="checked"/>
-        
+      <label className="">Learn</label>
       </div>    
-      <div className="ts_41">
-       <label className="">Learn</label>
       </div>
-      <div>
+      <div className="m_a">
        message about task during supervision/collaboration 
         </div>
         <div className="ts_42">
         <button className="bu_1">Complete</button>
       </div>
       </div>
-
+      
       <div className="side_1">
           <div className="side_2">
               <label className="side_3">Learning</label>
@@ -115,15 +120,18 @@ const Tasksharing = () => {
           <div className="side_6">
               <label className="side_7">date created</label>
           </div>
-          <div className="side_8">
-              <label className="side_9">Key learning Points</label>
-          </div>
+          <div className="side_6_bo">
+             <div className="side_8">
+                <label className="side_9">Key learning Points</label>
+             </div>
+             <div className="are_1">
+               <textarea  className="are_2" rows="7" cols="57"></textarea>
+             </div>
           <div className="side_10">
               <label className="side_11">Action</label>
           </div>
+          </div>
       </div>
-
-
     </div>
   );
 }
